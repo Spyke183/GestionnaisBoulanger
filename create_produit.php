@@ -60,7 +60,7 @@ $query->execute([$id,$nom,$image,$description,$prix,$categorie/*,$_SESSION['user
           <span class="material-icons"> add </span>
           Ajouter un produit
         </div>
-        <form action="create_produit.php" method="post">
+        <form action="create_produit.php" method="post" enctype="multipart/form-data"> 
           <!-- Contenu -->
           <div class="content">
             <!-- Ajout de produit -->

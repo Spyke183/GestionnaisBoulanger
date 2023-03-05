@@ -80,7 +80,7 @@ $query->execute([$id,$nom,$image,$description,$prix,$categorie/*,$_SESSION['user
 
 
 
-                  <label for="ImportImage">Image du produit</label>
+                  <label for="ImportImage">Image du produit yo</label>
                    <input type="file" name="image"class="form-control" />
 
                   <!-- <label for="ImportImage" class="form-label">Image :</label>
